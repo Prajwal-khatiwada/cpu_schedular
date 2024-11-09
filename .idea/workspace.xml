@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e39687cb-3a38-4bc1-8e6f-0ea714562383" name="Default Changelist" comment="CPU Scheduling Project" />
+    <list default="true" id="e39687cb-3a38-4bc1-8e6f-0ea714562383" name="Default Changelist" comment="CPU Scheduling Project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LoginGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RegistrationGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="UML Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,25 +38,27 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.SchedulingGUI.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH&quot;: &quot;327&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/proshore/IdeaProjects/cpu-scheduling-simulator-project ii&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.LoginGUI.executor": "Run",
+    "Application.RegistrationGUI.executor": "Run",
+    "Application.SchedulingGUI.executor": "Run",
+    "DefaultPlantUmlFileTemplate": "UML Class",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "327",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/proshore/IdeaProjects/cpu-scheduling-simulator-project ii",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -95,7 +102,12 @@
       <workItem from="1727197188072" duration="138000" />
       <workItem from="1727197847300" duration="299000" />
       <workItem from="1727198149101" duration="37000" />
-      <workItem from="1727198188784" duration="694000" />
+      <workItem from="1727198188784" duration="915000" />
+      <workItem from="1727225976017" duration="1321000" />
+      <workItem from="1727273274904" duration="53000" />
+      <workItem from="1727751407217" duration="106000" />
+      <workItem from="1727951343893" duration="616000" />
+      <workItem from="1731161093059" duration="4703000" />
     </task>
     <task id="LOCAL-00001" summary="CPU Scheduling Project">
       <option name="closed" value="true" />
@@ -121,7 +133,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727198015613</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CPU Scheduling Project">
+      <option name="closed" value="true" />
+      <created>1727198893789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727198893789</updated>
+    </task>
+    <task id="LOCAL-00005" summary="CPU Scheduling Project">
+      <option name="closed" value="true" />
+      <created>1727199003429</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727199003429</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
