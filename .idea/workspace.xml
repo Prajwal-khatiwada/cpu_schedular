@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e39687cb-3a38-4bc1-8e6f-0ea714562383" name="Default Changelist" comment="CPU Scheduling Project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LoginGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RegistrationGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e39687cb-3a38-4bc1-8e6f-0ea714562383" name="Default Changelist" comment="Login and Registration System" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +103,7 @@
       <workItem from="1727273274904" duration="53000" />
       <workItem from="1727751407217" duration="106000" />
       <workItem from="1727951343893" duration="616000" />
-      <workItem from="1731161093059" duration="4703000" />
+      <workItem from="1731161093059" duration="5041000" />
     </task>
     <task id="LOCAL-00001" summary="CPU Scheduling Project">
       <option name="closed" value="true" />
@@ -149,7 +145,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727199003429</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Login and Registration System">
+      <option name="closed" value="true" />
+      <created>1731166065909</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731166065909</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Login and Registration System">
+      <option name="closed" value="true" />
+      <created>1731166132596</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731166132596</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +180,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CPU Scheduling Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="CPU Scheduling Project" />
+    <MESSAGE value="Login and Registration System" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login and Registration System" />
   </component>
 </project>
