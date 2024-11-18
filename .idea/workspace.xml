@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e39687cb-3a38-4bc1-8e6f-0ea714562383" name="Default Changelist" comment="Login and Registration System" />
+    <list default="true" id="e39687cb-3a38-4bc1-8e6f-0ea714562383" name="Default Changelist" comment="Login and Registration System">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TermsAndConditionsGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPUSchedulingSimulation/LoginGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPUSchedulingSimulation/LoginGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPUSchedulingSimulation/LoginGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPUSchedulingSimulation/LoginGUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPUSchedulingSimulation/LoginGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPUSchedulingSimulation/LoginGUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPUSchedulingSimulation/LoginGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPUSchedulingSimulation/LoginGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPUSchedulingSimulation/RegistrationGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPUSchedulingSimulation/RegistrationGUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPUSchedulingSimulation/RegistrationGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPUSchedulingSimulation/RegistrationGUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CPUSchedulingSimulation/RegistrationGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CPUSchedulingSimulation/RegistrationGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/classes/SchedulingGUI.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CalcSimulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CalcSimulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegistrationGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegistrationGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RoundRobinPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RoundRobinPolicy.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +55,7 @@
     "Application.LoginGUI.executor": "Run",
     "Application.RegistrationGUI.executor": "Run",
     "Application.SchedulingGUI.executor": "Run",
+    "Application.TermsAndConditionsGUI.executor": "Run",
     "DefaultPlantUmlFileTemplate": "UML Class",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "327",
@@ -51,7 +67,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -103,7 +122,18 @@
       <workItem from="1727273274904" duration="53000" />
       <workItem from="1727751407217" duration="106000" />
       <workItem from="1727951343893" duration="616000" />
-      <workItem from="1731161093059" duration="5041000" />
+      <workItem from="1731161093059" duration="5306000" />
+      <workItem from="1731422897546" duration="5927000" />
+      <workItem from="1731459517155" duration="1329000" />
+      <workItem from="1731466056079" duration="2574000" />
+      <workItem from="1731518860098" duration="610000" />
+      <workItem from="1731599932032" duration="3880000" />
+      <workItem from="1731845318618" duration="496000" />
+      <workItem from="1731846992117" duration="455000" />
+      <workItem from="1731848254480" duration="2624000" />
+      <workItem from="1731882893501" duration="626000" />
+      <workItem from="1731883524818" duration="2133000" />
+      <workItem from="1731885662988" duration="1738000" />
     </task>
     <task id="LOCAL-00001" summary="CPU Scheduling Project">
       <option name="closed" value="true" />
@@ -182,5 +212,9 @@
     <MESSAGE value="CPU Scheduling Project" />
     <MESSAGE value="Login and Registration System" />
     <option name="LAST_COMMIT_MESSAGE" value="Login and Registration System" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

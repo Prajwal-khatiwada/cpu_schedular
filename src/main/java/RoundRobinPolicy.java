@@ -2,7 +2,7 @@ import java.io.*;
 import javax.swing.*;
 
 public class RoundRobinPolicy implements Scheduler {
-    static final long TIME_QUANTUM = 140; // quantum of time is set to 150s
+    static final long TIME_QUANTUM = 140; // quantum of time is set to 140s
     File sourceFile;
     
     RoundRobinPolicy(File sourceFile) {

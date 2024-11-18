@@ -82,14 +82,29 @@ public class RegistrationGUI extends JFrame {
         });
         add(registerButton);
 
+        // Terms and Conditions Link
+        // Terms and Conditions Link
+        JLabel termsLabel = new JLabel(
+                "<html><u><span style='color:white;'>I agree with <a href='#' style='color:white;'>Terms and Conditions</a></span></u></html>");
+        termsLabel.setForeground(Color.WHITE);
+        termsLabel.setBounds(360, 440, 280, 30);
+        termsLabel.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+        termsLabel.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                openTermsAndConditionsScreen();
+            }
+        });
+        add(termsLabel);
+
+
         // "Already have an Account?" and Login Button
         JLabel alreadyHaveAccountLabel = new JLabel("Already have an Account?", SwingConstants.CENTER);
         alreadyHaveAccountLabel.setForeground(Color.WHITE);
-        alreadyHaveAccountLabel.setBounds(0, 450, 1000, 30);
+        alreadyHaveAccountLabel.setBounds(0, 490, 1000, 30);
         add(alreadyHaveAccountLabel);
 
         loginButton = new JButton("Login");
-        loginButton.setBounds(450, 490, 100, 30);
+        loginButton.setBounds(450, 530, 100, 30);
         loginButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
                 openLoginScreen();
@@ -166,6 +181,11 @@ public class RegistrationGUI extends JFrame {
         // Open the login screen when the button is clicked
         new LoginGUI().setVisible(true);
         this.setVisible(false); // Close registration screen
+    }
+
+    private void openTermsAndConditionsScreen() {
+        // Open the terms and conditions screen
+        new TermsAndConditionsGUI().setVisible(true);
     }
 
     public static void main(String[] args) {

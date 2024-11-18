@@ -7,6 +7,7 @@ import java.io.PrintWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
+import java.util.Scanner;
 
 public class LoginGUI extends JFrame {
     private JTextField emailField;
@@ -115,12 +116,32 @@ public class LoginGUI extends JFrame {
                 out.flush();
             }
 
-            if (connection.getResponseCode() == HttpURLConnection.HTTP_OK) {
+            int responseCode = connection.getResponseCode();
+            String responseMessage;
+
+            // Read from the appropriate stream based on the response code
+            if (responseCode == HttpURLConnection.HTTP_OK) {
+                try (Scanner scanner = new Scanner(connection.getInputStream())) {
+                    responseMessage = scanner.hasNextLine() ? scanner.nextLine() : "Login successful";
+                }
+            } else {  // For 401 or 404 or other error codes
+                try (Scanner scanner = new Scanner(connection.getErrorStream())) {
+                    responseMessage = scanner.hasNextLine() ? scanner.nextLine() : "Login failed!";
+                }
+            }
+
+            // Display the appropriate message based on the response code
+            if (responseCode == HttpURLConnection.HTTP_OK) {
                 new SchedulingGUI().setVisible(true); // Redirect to Scheduling GUI on successful login
                 this.dispose(); // Close the login screen
+            } else if (responseCode == HttpURLConnection.HTTP_UNAUTHORIZED) {  // 401 Unauthorized
+                JOptionPane.showMessageDialog(this, "Incorrect password!");
+            } else if (responseCode == HttpURLConnection.HTTP_NOT_FOUND) {  // 404 Not Found
+                JOptionPane.showMessageDialog(this, "Incorrect email!");
             } else {
-                JOptionPane.showMessageDialog(this, "Login failed!");
+                JOptionPane.showMessageDialog(this, responseMessage);  // Display any other message
             }
+
         } catch (Exception e) {
             e.printStackTrace();
             JOptionPane.showMessageDialog(this, "Error: " + e.getMessage());

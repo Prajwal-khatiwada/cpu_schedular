@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CPUScheduling:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CPUScheduling_jar</output-path>
+    <root id="archive" name="CPUSchedulingSimulation.jar">
+      <element id="module-output" name="CPUSchedulingSimulation" />
+    </root>
+  </artifact>
+</component>

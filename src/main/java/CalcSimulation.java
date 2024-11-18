@@ -495,7 +495,6 @@ public class CalcSimulation extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel algoSelected2;
     public static javax.swing.JTextField avgServeField;
@@ -566,5 +565,6 @@ public class CalcSimulation extends javax.swing.JFrame {
     private javax.swing.JTextField selectedAlgo;
     private javax.swing.JTextField selectedJob;
     public static javax.swing.JTextField totalExecField;
+
     // End of variables declaration//GEN-END:variables
 }
